@@ -1,0 +1,9 @@
+{% extends "base.html" %}{% block content %}<section class="hero">
+    <h1>AI Government Chatbot</h1>
+    <p>Click any service card to open the chatbot with service details.</p>
+</section>
+<section class="grid">{% for key, service in services.items() %}<a class="service-card"
+        href="{{ url_for('chatbot') }}?service={{ key|urlencode }}">
+        <div class="emoji">{{ service.emoji }}</div>
+        <div class="title">{{ service.title }}</div>
+    </a>{% endfor %}</section>{% endblock %}

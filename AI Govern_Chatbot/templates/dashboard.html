@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container-box">
+    <h2>Dashboard</h2>
+
+    <div class="counter-box">
+        <div class="counter-item">
+            <div class="counter-number" data-target="{{ users }}">0</div>
+            <div class="counter-label">Users</div>
+        </div>
+        <div class="counter-item">
+            <div class="counter-number" data-target="{{ chats }}">0</div>
+            <div class="counter-label">Chats</div>
+        </div>
+        <div class="counter-item">
+            <div class="counter-number" data-target="{{ feedbacks }}">0</div>
+            <div class="counter-label">Feedbacks</div>
+        </div>
+    </div>
+
+    <div class="chart-box">
+        <canvas id="pieChart" width="300" height="200"></canvas>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Counter animation
+    document.querySelectorAll('.counter-number').forEach(counter => {
+      const target = +counter.getAttribute('data-target');
+      const update = () => {
+        const current = +counter.innerText;
+        const increment = Math.ceil(target / 100);
+        if (current < target) {
+          counter.innerText = current + increment;
+          setTimeout(update, 30);
+        } else {
+          counter.innerText = target;
+        }
+      };
+      update();
+    });
+
+    // ✅ Pie Chart (safe from Pylance errors)
+    const ctx = document.getElementById('pieChart').getContext('2d');
+    const users = Number("{{ users }}");
+    const chats = Number("{{ chats }}");
+    const feedbacks = Number("{{ feedbacks }}");
+
+    new Chart(ctx, {
+      type: 'pie',
+      data: {
+        labels: ['Users', 'Chats', 'Feedbacks'],
+        datasets: [{
+          label: 'Dashboard Overview',
+          data: [users, chats, feedbacks],
+          backgroundColor: ['#a8c0ff', '#f2e6ff', '#b3e5fc'],
+          borderWidth: 1,
+          borderColor: '#ffffff',
+          hoverOffset: 6
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { position: 'bottom' },
+          title: { display: true, text: 'Dashboard Activity Overview' }
+        }
+      }
+    });
+  });
+</script>
+{% endblock %}

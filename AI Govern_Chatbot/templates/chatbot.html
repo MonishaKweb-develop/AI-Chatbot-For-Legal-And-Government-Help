@@ -1,0 +1,10 @@
+{% extends "base.html" %}{% block content %}<section class="chat-wrap">
+    <h2>Chatbot</h2>{% if service %}<div class="service-box"><strong>{{ service.title }}</strong>
+        <p>Auto-loaded service information.</p>
+    </div>{% endif %}<div id="messages" class="messages"></div>
+    <div class="input-row"><input id="user-input" placeholder="Type your question..." /><button
+            id="send-btn">Send</button><button id="mic-btn">🎤</button><button id="clear-btn">Clear</button><button
+            id="speak-btn">🔊</button></div>
+    
+</section>
+<script>const SERVICE_KEY = "{{ service_key }}"; const INITIAL_LANG = "{{ lang }}";</script>{% endblock %}

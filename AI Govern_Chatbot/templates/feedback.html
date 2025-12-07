@@ -1,0 +1,6 @@
+{% extends "base.html" %}{% block content %}<div class="container-box form-box">
+    <h2>Feedback</h2>
+    <form method="POST"><input name="name" placeholder="Name" required><input name="email" type="email"
+            placeholder="Email" required><textarea name="feedback" rows="4" placeholder="Your feedback"
+            required></textarea><button type="submit">Send Feedback</button></form>
+</div>{% endblock %}

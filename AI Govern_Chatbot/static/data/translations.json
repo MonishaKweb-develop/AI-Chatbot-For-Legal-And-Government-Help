@@ -1,0 +1,26 @@
+{
+  "ta": {
+    "Service": "சேவை விவரங்கள்",
+    "PAN Card Application Guide": "பேன் கார்டு விண்ணப்ப வழிகாட்டி",
+    "Steps:\n1. Go to NSDL or UTIITSL website\n2. Fill online form 49A\n3. Upload photo and ID proof\n4. Pay fees and submit form": "படி:\n1. NSDL அல்லது UTIITSL இணையதளத்திற்கு செல்லவும்\n2. ஆன்லைன் படிவம் 49A பூர்த்தி செய்யவும்\n3. புகைப்படம் மற்றும் அடையாள சான்றிதழை பதிவேற்றவும்\n4. கட்டணம் செலுத்தி சமர்ப்பிக்கவும்",
+    "Required Documents: Aadhaar, Photo, Address Proof": "தேவையான ஆவணங்கள்: ஆதார், புகைப்படம், முகவரி சான்று",
+    "Approx. Fee: ₹110": "கட்டணம்: ₹110",
+    "Official Link: https://www.onlineservices.nsdl.com/": "அதிகாரப்பூர்வ இணைப்பு: https://www.onlineservices.nsdl.com/"
+  },
+  "hi": {
+    "Service": "सेवा विवरण",
+    "PAN Card Application Guide": "पैन कार्ड आवेदन मार्गदर्शिका",
+    "Steps:\n1. Go to NSDL or UTIITSL website\n2. Fill online form 49A\n3. Upload photo and ID proof\n4. Pay fees and submit form": "कदम:\n1. NSDL या UTIITSL वेबसाइट पर जाएं\n2. ऑनलाइन फॉर्म 49A भरें\n3. फोटो और पहचान प्रमाण अपलोड करें\n4. शुल्क जमा करें और फॉर्म सबमिट करें",
+    "Required Documents: Aadhaar, Photo, Address Proof": "आवश्यक दस्तावेज़: आधार, फोटो, पता प्रमाण",
+    "Approx. Fee: ₹110": "शुल्क: ₹110",
+    "Official Link: https://www.onlineservices.nsdl.com/": "आधिकारिक लिंक: https://www.onlineservices.nsdl.com/"
+  },
+  "kn": {
+    "Service": "ಸೇವೆಯ ವಿವರಗಳು",
+    "PAN Card Application Guide": "ಪ್ಯಾನ್ ಕಾರ್ಡ್ ಅರ್ಜಿ ಮಾರ್ಗದರ್ಶಿ",
+    "Steps:\n1. Go to NSDL or UTIITSL website\n2. Fill online form 49A\n3. Upload photo and ID proof\n4. Pay fees and submit form": "ಹಂತಗಳು:\n1. NSDL ಅಥವಾ UTIITSL ವೆಬ್‌ಸೈಟ್‌ಗೆ ಹೋಗಿ\n2. ಆನ್‌ಲೈನ್ ಫಾರ್ಮ್ 49A ಭರ್ತಿ ಮಾಡಿ\n3. ಫೋಟೋ ಮತ್ತು ಗುರುತಿನ ಸಾಬೀತು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ\n4. ಶುಲ್ಕ ಪಾವತಿಸಿ ಸಲ್ಲಿಸಿ",
+    "Required Documents: Aadhaar, Photo, Address Proof": "ಅಗತ್ಯವಾದ ದಾಖಲೆಗಳು: ಆಧಾರ್, ಫೋಟೋ, ವಿಳಾಸ ಸಾಬೀತು",
+    "Approx. Fee: ₹110": "ಅಂದಾಜು ಶುಲ್ಕ: ₹110",
+    "Official Link: https://www.onlineservices.nsdl.com/": "ಅಧಿಕೃತ ಲಿಂಕ್: https://www.onlineservices.nsdl.com/"
+  }
+}

@@ -1,0 +1,640 @@
+{
+  "pan_card_application": {
+    "emoji": "🪪",
+    "title": "PAN Card Application",
+    "steps": [
+      "Visit NSDL or UTIITSL official website",
+      "Fill Form 49A with your details",
+      "Upload documents and pay processing fee"
+    ],
+    "documents": "Aadhaar Card, Passport Photo",
+    "fee": "₹110",
+    "link": "https://www.onlineservices.nsdl.com/"
+  },
+  "passport_application": {
+    "emoji": "🛂",
+    "title": "Passport Application",
+    "steps": [
+      "Register at Passport Seva website",
+      "Fill and submit application form",
+      "Book appointment at Passport Seva Kendra"
+    ],
+    "documents": "Aadhaar Card, Address Proof",
+    "fee": "₹1500",
+    "link": "https://passportindia.gov.in/"
+  },
+  "voter_id_registration": {
+    "emoji": "🗳️",
+    "title": "Voter ID Registration",
+    "steps": [
+      "Go to NVSP website and register",
+      "Fill Form 6 for new voter ID",
+      "Upload ID proof and submit"
+    ],
+    "documents": "Aadhaar, Age Proof, Photo",
+    "fee": "Free",
+    "link": "https://www.nvsp.in/"
+  },
+  "driving_license": {
+    "emoji": "🚗",
+    "title": "Driving License Application",
+    "steps": [
+      "Visit Parivahan Sewa portal",
+      "Fill online DL form and book slot",
+      "Attend test at RTO"
+    ],
+    "documents": "Aadhaar, Age Proof, Learner’s License",
+    "fee": "₹350",
+    "link": "https://parivahan.gov.in/"
+  },
+  "aadhar_update": {
+    "emoji": "🆔",
+    "title": "Aadhaar Update",
+    "steps": [
+      "Visit UIDAI official portal",
+      "Select update Aadhaar details option",
+      "Submit documents and pay small fee"
+    ],
+    "documents": "Aadhaar, Proof of Change",
+    "fee": "₹50",
+    "link": "https://uidai.gov.in/"
+  },
+  "ration_card": {
+    "emoji": "🍚",
+    "title": "Ration Card Application",
+    "steps": [
+      "Visit state PDS website",
+      "Fill ration card application form",
+      "Submit family details and documents"
+    ],
+    "documents": "Aadhaar, Family Details",
+    "fee": "Free",
+    "link": "https://nfsa.gov.in/"
+  },
+  "birth_certificate": {
+    "emoji": "👶",
+    "title": "Birth Certificate Application",
+    "steps": [
+      "Go to local municipal website",
+      "Fill birth registration form",
+      "Upload hospital and parent details"
+    ],
+    "documents": "Birth Proof, Parent ID",
+    "fee": "₹25",
+    "link": "https://india.gov.in/"
+  },
+  "death_certificate": {
+    "emoji": "⚰️",
+    "title": "Death Certificate Application",
+    "steps": [
+      "Visit municipal record office online",
+      "Fill deceased person details",
+      "Upload doctor’s certificate"
+    ],
+    "documents": "Death Proof, ID of Applicant",
+    "fee": "₹50",
+    "link": "https://india.gov.in/"
+  },
+  "income_certificate": {
+    "emoji": "💼",
+    "title": "Income Certificate Application",
+    "steps": [
+      "Visit state eDistrict portal",
+      "Submit income proof online",
+      "Download certificate after approval"
+    ],
+    "documents": "Salary Slip, Aadhaar Card",
+    "fee": "₹20",
+    "link": "https://edistrict.gov.in/"
+  },
+  "caste_certificate": {
+    "emoji": "🏷️",
+    "title": "Caste Certificate Application",
+    "steps": [
+      "Login to your state eDistrict site",
+      "Fill caste details and upload proof",
+      "Track status and download"
+    ],
+    "documents": "Aadhaar, Community Proof",
+    "fee": "₹25",
+    "link": "https://edistrict.gov.in/"
+  },
+  "domicile_certificate": {
+    "emoji": "🏠",
+    "title": "Domicile Certificate",
+    "steps": [
+      "Apply through local Tahsildar office",
+      "Provide residence proof",
+      "Collect approved certificate online"
+    ],
+    "documents": "Address Proof, Aadhaar",
+    "fee": "₹50",
+    "link": "https://india.gov.in/"
+  },
+  "marriage_certificate": {
+    "emoji": "💍",
+    "title": "Marriage Certificate",
+    "steps": [
+      "Apply at Sub-Registrar office website",
+      "Fill couple details and upload photos",
+      "Book appointment and verify documents"
+    ],
+    "documents": "Aadhaar, Marriage Photos",
+    "fee": "₹100",
+    "link": "https://india.gov.in/"
+  },
+  "pf_claim": {
+    "emoji": "💰",
+    "title": "PF Claim Process",
+    "steps": [
+      "Login to EPFO portal",
+      "Submit claim under 'Online Services'",
+      "Track claim status"
+    ],
+    "documents": "UAN, Aadhaar, Bank Proof",
+    "fee": "Free",
+    "link": "https://www.epfindia.gov.in/"
+  },
+  "passport_renewal": {
+    "emoji": "🔁",
+    "title": "Passport Renewal",
+    "steps": [
+      "Login to Passport Seva account",
+      "Select renewal option",
+      "Book appointment and visit PSK"
+    ],
+    "documents": "Old Passport, ID Proof",
+    "fee": "₹1500",
+    "link": "https://passportindia.gov.in/"
+  },
+  "police_verification": {
+    "emoji": "👮",
+    "title": "Police Verification",
+    "steps": [
+      "Apply on state police verification site",
+      "Fill applicant details",
+      "Submit form and wait for officer visit"
+    ],
+    "documents": "Aadhaar, ID Proof",
+    "fee": "₹100",
+    "link": "https://india.gov.in/"
+  },
+  "gst_registration": {
+    "emoji": "🧾",
+    "title": "GST Registration",
+    "steps": [
+      "Go to GST portal and register",
+      "Upload business and ID proof",
+      "Receive GSTIN after approval"
+    ],
+    "documents": "PAN, Aadhaar, Address Proof",
+    "fee": "Free",
+    "link": "https://www.gst.gov.in/"
+  },
+  "company_registration": {
+    "emoji": "🏢",
+    "title": "Company Registration",
+    "steps": [
+      "Visit MCA website and register account",
+      "Submit SPICe+ form",
+      "Get incorporation certificate"
+    ],
+    "documents": "PAN, ID Proof, Office Address",
+    "fee": "₹500",
+    "link": "https://www.mca.gov.in/"
+  },
+  "udyam_registration": {
+    "emoji": "🏭",
+    "title": "Udyam MSME Registration",
+    "steps": [
+      "Go to Udyam registration portal",
+      "Enter Aadhaar and business details",
+      "Download certificate instantly"
+    ],
+    "documents": "Aadhaar, PAN, Business Info",
+    "fee": "Free",
+    "link": "https://udyamregistration.gov.in/"
+  },
+  "ayushman_card": {
+    "emoji": "🏥",
+    "title": "Ayushman Bharat Card",
+    "steps": [
+      "Visit PMJAY official website",
+      "Check eligibility and apply online",
+      "Download card for treatment use"
+    ],
+    "documents": "Aadhaar, Family ID",
+    "fee": "Free",
+    "link": "https://pmjay.gov.in/"
+  },
+  "scholarship_application": {
+    "emoji": "🎓",
+    "title": "Scholarship Application",
+    "steps": [
+      "Login to NSP portal",
+      "Select scheme and fill details",
+      "Submit form before deadline"
+    ],
+    "documents": "Marksheet, Income Certificate",
+    "fee": "Free",
+    "link": "https://scholarships.gov.in/"
+  },
+  "election_card_correction": {
+    "emoji": "🗳️",
+    "title": "Election Card Correction",
+    "steps": [
+      "Go to NVSP correction portal",
+      "Fill Form 8 with updated info",
+      "Submit and track correction status"
+    ],
+    "documents": "Aadhaar, Old Voter ID",
+    "fee": "Free",
+    "link": "https://nvsp.in/"
+  },
+  "income_tax_filing": {
+    "emoji": "💸",
+    "title": "Income Tax Filing",
+    "steps": [
+      "Login to Income Tax e-filing site",
+      "Select form and upload documents",
+      "Verify return using OTP or Aadhaar"
+    ],
+    "documents": "PAN, Salary Slip, Bank Details",
+    "fee": "Free",
+    "link": "https://www.incometax.gov.in/"
+  },
+  "digital_signature": {
+    "emoji": "🖋️",
+    "title": "Digital Signature Certificate",
+    "steps": [
+      "Visit Certifying Authority website",
+      "Fill form for DSC type",
+      "Verify and download DSC"
+    ],
+    "documents": "PAN, Aadhaar, Photo",
+    "fee": "₹1200",
+    "link": "https://india.gov.in/"
+  },
+  "birth_certificate_correction": {
+    "emoji": "📜",
+    "title": "Birth Certificate Correction",
+    "steps": [
+      "Go to municipal portal",
+      "Upload correction proof",
+      "Download updated certificate"
+    ],
+    "documents": "Old Birth Certificate, ID Proof",
+    "fee": "₹50",
+    "link": "https://india.gov.in/"
+  },
+  "trade_license": {
+    "emoji": "🏪",
+    "title": "Trade License Application",
+    "steps": [
+      "Visit state municipal website",
+      "Fill license form with details",
+      "Pay fees and get approval"
+    ],
+    "documents": "Aadhaar, Shop Photo",
+    "fee": "₹250",
+    "link": "https://india.gov.in/"
+  },
+
+  "electricity_connection": {
+    "emoji": "💡",
+    "title": "New Electricity Connection",
+    "steps": [
+      "Go to your state electricity board website",
+      "Submit online connection form",
+      "Upload address proof and pay deposit"
+    ],
+    "documents": "Aadhaar, Address Proof, Photo",
+    "fee": "₹500",
+    "link": "https://www.bharat.gov.in/"
+  },
+  "water_connection": {
+    "emoji": "🚰",
+    "title": "Water Connection Application",
+    "steps": [
+      "Apply through municipal water portal",
+      "Upload property and ID proof",
+      "Pay installation charge online"
+    ],
+    "documents": "Aadhaar, Property Bill",
+    "fee": "₹300",
+    "link": "https://india.gov.in/"
+  },
+  "gas_connection": {
+    "emoji": "🔥",
+    "title": "LPG Gas Connection",
+    "steps": [
+      "Visit official gas distributor website",
+      "Fill online new connection form",
+      "Upload KYC documents and submit"
+    ],
+    "documents": "Aadhaar, Photo, Address Proof",
+    "fee": "₹1500",
+    "link": "https://myhpgas.in/"
+  },
+  "land_record": {
+    "emoji": "🌾",
+    "title": "Check Land Record (Patta/Chitta)",
+    "steps": [
+      "Go to your state land record portal",
+      "Enter survey number and district",
+      "Download record copy online"
+    ],
+    "documents": "Survey No., Aadhaar",
+    "fee": "Free",
+    "link": "https://bhulekh.gov.in/"
+  },
+  "vehicle_registration": {
+    "emoji": "🛵",
+    "title": "Vehicle Registration",
+    "steps": [
+      "Visit Parivahan website",
+      "Fill vehicle registration form",
+      "Upload RC and insurance documents"
+    ],
+    "documents": "ID Proof, Invoice, Insurance",
+    "fee": "₹600",
+    "link": "https://parivahan.gov.in/"
+  },
+  "gas_subsidy": {
+    "emoji": "⛽",
+    "title": "Gas Subsidy Enrollment",
+    "steps": [
+      "Link Aadhaar with LPG connection",
+      "Login to PAHAL portal",
+      "Submit bank details for subsidy"
+    ],
+    "documents": "Aadhaar, Bank Passbook",
+    "fee": "Free",
+    "link": "https://mylpg.in/"
+  },
+  "pm_kisan_registration": {
+    "emoji": "🌿",
+    "title": "PM Kisan Yojana Registration",
+    "steps": [
+      "Visit PM Kisan official website",
+      "Enter Aadhaar and bank details",
+      "Submit and check payment status"
+    ],
+    "documents": "Aadhaar, Bank Details",
+    "fee": "Free",
+    "link": "https://pmkisan.gov.in/"
+  },
+  "pmjjby_insurance": {
+    "emoji": "🩺",
+    "title": "PMJJBY Life Insurance",
+    "steps": [
+      "Apply through bank or net banking",
+      "Verify details with Aadhaar",
+      "Auto renewal yearly"
+    ],
+    "documents": "Aadhaar, Bank Account",
+    "fee": "₹436/year",
+    "link": "https://jansuraksha.gov.in/"
+  },
+  "pmsby_insurance": {
+    "emoji": "💉",
+    "title": "PMSBY Accident Insurance",
+    "steps": [
+      "Visit bank website to enroll",
+      "Link Aadhaar and bank account",
+      "Confirm activation via SMS"
+    ],
+    "documents": "Aadhaar, Bank Account",
+    "fee": "₹20/year",
+    "link": "https://jansuraksha.gov.in/"
+  },
+  "pmay_housing": {
+    "emoji": "🏘️",
+    "title": "PMAY Housing Scheme",
+    "steps": [
+      "Login to PMAY portal",
+      "Fill housing subsidy form",
+      "Track approval online"
+    ],
+    "documents": "Aadhaar, Income Proof",
+    "fee": "Free",
+    "link": "https://pmaymis.gov.in/"
+  },
+  "birth_certificate_download": {
+    "emoji": "📄",
+    "title": "Download Birth Certificate",
+    "steps": [
+      "Visit your municipal website",
+      "Enter registration number",
+      "Download digital certificate"
+    ],
+    "documents": "Registration ID, Parent ID",
+    "fee": "Free",
+    "link": "https://india.gov.in/"
+  },
+  "passport_status": {
+    "emoji": "📦",
+    "title": "Check Passport Status",
+    "steps": [
+      "Go to Passport Seva portal",
+      "Enter application number",
+      "View live status update"
+    ],
+    "documents": "Application ID",
+    "fee": "Free",
+    "link": "https://passportindia.gov.in/"
+  },
+  "driving_license_renewal": {
+    "emoji": "🚙",
+    "title": "Driving License Renewal",
+    "steps": [
+      "Visit Parivahan Sewa website",
+      "Upload photo and ID proof",
+      "Book RTO slot for verification"
+    ],
+    "documents": "Old DL, Aadhaar",
+    "fee": "₹350",
+    "link": "https://parivahan.gov.in/"
+  },
+  "birth_certificate_verification": {
+    "emoji": "✅",
+    "title": "Verify Birth Certificate",
+    "steps": [
+      "Open local civic portal",
+      "Enter registration ID",
+      "Check validity instantly"
+    ],
+    "documents": "Certificate Number",
+    "fee": "Free",
+    "link": "https://india.gov.in/"
+  },
+  "voter_list_check": {
+    "emoji": "📋",
+    "title": "Check Your Name in Voter List",
+    "steps": [
+      "Visit NVSP portal",
+      "Enter EPIC number or name",
+      "View voter list details"
+    ],
+    "documents": "EPIC Number",
+    "fee": "Free",
+    "link": "https://nvsp.in/"
+  },
+  "ration_card_status": {
+    "emoji": "🍛",
+    "title": "Ration Card Status",
+    "steps": [
+      "Visit state PDS portal",
+      "Enter application number",
+      "View current status"
+    ],
+    "documents": "Application ID",
+    "fee": "Free",
+    "link": "https://nfsa.gov.in/"
+  },
+  "aadhaar_status": {
+    "emoji": "🔍",
+    "title": "Aadhaar Status Check",
+    "steps": [
+      "Go to UIDAI website",
+      "Enter enrollment number",
+      "Check Aadhaar generation status"
+    ],
+    "documents": "Enrollment ID",
+    "fee": "Free",
+    "link": "https://uidai.gov.in/"
+  },
+  "pan_verification": {
+    "emoji": "🧾",
+    "title": "PAN Verification",
+    "steps": [
+      "Visit Income Tax e-filing portal",
+      "Enter PAN number",
+      "Check validity instantly"
+    ],
+    "documents": "PAN Card Number",
+    "fee": "Free",
+    "link": "https://www.incometax.gov.in/"
+  },
+  "gas_booking": {
+    "emoji": "📞",
+    "title": "Book LPG Cylinder",
+    "steps": [
+      "Login to LPG provider site",
+      "Select refill option",
+      "Track delivery online"
+    ],
+    "documents": "Consumer ID",
+    "fee": "As per rate",
+    "link": "https://mylpg.in/"
+  },
+  "property_tax_payment": {
+    "emoji": "🏡",
+    "title": "Pay Property Tax",
+    "steps": [
+      "Visit your municipal website",
+      "Enter property ID and details",
+      "Pay bill securely online"
+    ],
+    "documents": "Property ID, Owner ID",
+    "fee": "As per tax",
+    "link": "https://india.gov.in/"
+  },
+  "police_complaint_online": {
+    "emoji": "🧑‍✈️",
+    "title": "Online Police Complaint",
+    "steps": [
+      "Visit state police online portal",
+      "Fill FIR or complaint form",
+      "Submit and get acknowledgment"
+    ],
+    "documents": "ID Proof, Complaint Details",
+    "fee": "Free",
+    "link": "https://india.gov.in/"
+  },
+  "covid_vaccine": {
+    "emoji": "💉",
+    "title": "COVID Vaccine Registration",
+    "steps": [
+      "Login to CoWIN portal",
+      "Enter mobile number and OTP",
+      "Book nearest slot"
+    ],
+    "documents": "Aadhaar, Photo ID",
+    "fee": "Free",
+    "link": "https://www.cowin.gov.in/"
+  },
+  "aadhaar_download": {
+    "emoji": "📱",
+    "title": "Download Aadhaar Card",
+    "steps": [
+      "Go to UIDAI eAadhaar page",
+      "Enter Aadhaar or VID",
+      "Verify OTP and download"
+    ],
+    "documents": "Aadhaar Number, OTP",
+    "fee": "Free",
+    "link": "https://uidai.gov.in/"
+  },
+  "epf_balance": {
+    "emoji": "💳",
+    "title": "Check EPF Balance",
+    "steps": [
+      "Login to EPFO member portal",
+      "Enter UAN and password",
+      "View passbook instantly"
+    ],
+    "documents": "UAN, Aadhaar",
+    "fee": "Free",
+    "link": "https://epfindia.gov.in/"
+  },
+  "gas_refund": {
+    "emoji": "🔁",
+    "title": "Gas Subsidy Refund",
+    "steps": [
+      "Login to PAHAL portal",
+      "Check subsidy refund status",
+      "Update bank details if needed"
+    ],
+    "documents": "Aadhaar, Bank Passbook",
+    "fee": "Free",
+    "link": "https://mylpg.in/"
+  },
+  "voter_id_download": {
+    "emoji": "📥",
+    "title": "Download Digital Voter ID",
+    "steps": [
+      "Visit NVSP website",
+      "Login with mobile and OTP",
+      "Download e-EPIC card"
+    ],
+    "documents": "EPIC Number",
+    "fee": "Free",
+    "link": "https://nvsp.in/"
+  },
+  "police_clearance": {
+    "emoji": "🚔",
+    "title": "Police Clearance Certificate",
+    "steps": [
+      "Apply through Passport Seva site",
+      "Upload ID proof and photo",
+      "Book appointment for verification"
+    ],
+    "documents": "Aadhaar, Passport",
+    "fee": "₹500",
+    "link": "https://passportindia.gov.in/"
+  },
+  "gas_transfer": {
+    "emoji": "🛢️",
+    "title": "Transfer Gas Connection",
+    "steps": [
+      "Submit online transfer request",
+      "Attach address change proof",
+      "Wait for distributor approval"
+    ],
+    "documents": "Aadhaar, New Address Proof",
+    "fee": "Free",
+    "link": "https://mylpg.in/"
+  }
+}
+
